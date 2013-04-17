@@ -1,0 +1,86 @@
+      html,
+      body {
+        height: 100%;
+      }
+
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -60px;
+      }
+
+      #footer {
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+      .masthead{
+        padding-top: 20px;
+      }
+
+      .dropdown-menu {
+          left: -150%;
+          position: absolute;
+          top: 0;
+          margin-top: 25px;
+      }
+
+      .indices{
+        position: absolute;
+        z-index: 99;
+        width: 18px;
+        height: 18px;
+        line-height: 19px;
+        font-size: 11px;
+        padding-left: 6px;
+        margin-left: -10px;
+      }
+
+      #notificaciones{
+        background: url('http://www.myorange.ca/theme/jarvisadmin/img/mini-counter.png') no-repeat;
+        color: white;
+      }
+
+      #coins{
+        color: #298A08; 
+        text-shadow: #088A08 0.1em 0.1em 0.2em;
+      }
+
+      .jumbo{
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbo h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbo .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbo .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      .accordion-group{
+
+        border: none;
+        
+      }
+
+      .accordion-heading{
+
+        border: 1px solid #E5E5E5;
+
+      }
